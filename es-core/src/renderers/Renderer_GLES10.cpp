@@ -109,7 +109,7 @@ namespace Renderer
 		
 		go2_display_t* display = getDisplay();
 
-		titlebarSurface = go2_surface_create(display, 480, 16, DRM_FORMAT_RGB565);
+		titlebarSurface = go2_surface_create(display, 854, 16, DRM_FORMAT_RGB565);
 
 		context = go2_context_create(display, 854, 480, &attr);
 		go2_context_make_current(context);
