@@ -48,7 +48,7 @@ GuiMenu::GuiMenu(Window* window) : GuiComponent(window), mMenu(window, "MAIN MEN
 
 	if (isFullUI)
 		addEntry("CONFIGURE INPUT", 0x777777FF, true, [this] { openConfigInput(); });
-#endif
+endif
 
 	addEntry("QUIT", 0x777777FF, true, [this] {openQuitMenu(); });
 
