@@ -398,7 +398,7 @@ namespace Renderer
 				uint8_t* dst = (uint8_t*)go2_surface_map(titlebarSurface);
 				int dst_stride = go2_surface_stride_get(titlebarSurface);
 
-				dst += ((480 / 2) - (odroid_image.width / 2)) * sizeof(short);
+				dst += ((854 / 2) - (odroid_image.width / 2)) * sizeof(short);
 
 				for (int y = 0; y < 16; ++y)
 				{
