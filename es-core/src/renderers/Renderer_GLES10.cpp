@@ -109,7 +109,7 @@ namespace Renderer
 		
 		go2_display_t* display = getDisplay();
 
-		titlebarSurface = go2_surface_create(display, 854, 16, DRM_FORMAT_RGB565);
+		titlebarSurface = go2_surface_create(display, 480, 16, DRM_FORMAT_RGB565);
 
 		context = go2_context_create(display, 854, 480, &attr);
 		go2_context_make_current(context);
@@ -450,8 +450,8 @@ namespace Renderer
 
 			go2_presenter_post(presenter,
 						surface,
-						0, 0, 854, 480,
-						0, 0, 480, 854,
+						0, 0, 320, 480,
+						0, 0, 320, 480,
 						GO2_ROTATION_DEGREES_270);
 			go2_context_surface_unlock(context, surface);
 		}
