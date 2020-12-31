@@ -413,8 +413,8 @@ namespace Renderer
 			go2_context_swap_buffers(context);
 			go2_surface_t* surface = go2_context_surface_lock(context);
 
-			go2_surface_blit(titlebarSurface, 0, 0, 854, 16,
-							 surface, 0, 0, 854, 16,
+			go2_surface_blit(titlebarSurface, 0, 0, 480, 16,
+							 surface, 0, 0, 480, 16,
 							 GO2_ROTATION_DEGREES_0);
 
 			if (g_screenshot_requested)
