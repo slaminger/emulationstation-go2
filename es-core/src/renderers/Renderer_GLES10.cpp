@@ -450,8 +450,8 @@ namespace Renderer
 
 			go2_presenter_post(presenter,
 						surface,
-						0, 0, 320, 480,
-						0, 0, 320, 480,
+						0, 0, 854, 480,
+						0, 0, 480, 854,
 						GO2_ROTATION_DEGREES_270);
 			go2_context_surface_unlock(context, surface);
 		}
