@@ -19,6 +19,7 @@
 #include <SDL_events.h>
 #include <algorithm>
 #include "platform.h"
+#include "InputManager.h"
 
 #include <go2/display.h>
 
