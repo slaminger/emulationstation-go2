@@ -19,8 +19,7 @@
 #include <SDL_events.h>
 #include <algorithm>
 #include "platform.h"
-#include "views/UIModeController.h"
-#include "views/ViewController.h"
+
 
 #include <go2/display.h>
 
