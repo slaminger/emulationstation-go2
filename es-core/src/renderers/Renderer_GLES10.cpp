@@ -331,7 +331,7 @@ namespace Renderer
 				}
 				
 				src += (batteryIndex * 16 * src_stride);
-				dst += (480 - 32) * sizeof(short);
+				dst += (854 - 32) * sizeof(short);
 
 				for (int y = 0; y < 16; ++y)
 				{
